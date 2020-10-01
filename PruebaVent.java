@@ -21,12 +21,11 @@ public class PruebaVent {
       
     }
     
-    public PruebaVent (String titulo){
-        
+    public PruebaVent (String titulo){      
         JFrame ventanaM = new JFrame(titulo);
         ventanaM.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//finaliza el programa cuando se da click en la X
         ventanaM.setSize(290, 150);//configurando tamaño de la ventana
         ventanaM.setVisible(true);//configurando visualización de la ventana   
-          System.out.println("Pablo");     
+        System.out.println("Pablo");
     }    
 }
