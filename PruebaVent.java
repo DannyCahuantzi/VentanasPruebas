@@ -18,6 +18,7 @@ public class PruebaVent {
      */
     public static void main(String[] args) {
         PruebaVent ventana = new PruebaVent("Ventana Creada");
+      
     }
     
     public PruebaVent (String titulo){
@@ -25,6 +26,7 @@ public class PruebaVent {
         JFrame ventanaM = new JFrame(titulo);
         ventanaM.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//finaliza el programa cuando se da click en la X
         ventanaM.setSize(290, 150);//configurando tamaño de la ventana
-        ventanaM.setVisible(true);//configurando visualización de la ventana        
+        ventanaM.setVisible(true);//configurando visualización de la ventana   
+          System.out.println("Pablo");     
     }    
 }
